@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency converter</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Currency Converter</h1>
+            <input type="number" min="0" id="input" required placeholder="Amount">
+            <select id="side1">
+                <option value="dollar">Dollar</option>
+                <option value="sum">Sum</option>
+                <option value="euro">Euro</option>
+                <option value="rubl">Rubl</option>
+            </select>
+            <select id="side2">
+                <option value="dollar">Dollar</option>
+                <option value="sum">Sum</option>
+                <option value="euro">Euro</option>
+                <option value="rubl">Rubl</option>
+            </select>
+            <button type="submit" class="1">Convert</button>
+            <h2 id="result"></h2>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
